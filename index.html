@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Click the text to change its size</h1>
+    <body>
+ <p id="demo">What Do Programmers Do, Anyway? Computer programmers design, develop, and test software and ensure software adhere's to best practices in performance, reliability and security. Computer programmers can work developing mobile applications, coding video games, programming websites, and much more.</p>
+
+<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "WHAT DO PROGRAMMERS DO, ANYWAY? COMPUTER PROGRAMMERS DESIGN, DEVELOP, AND TEST SOFTWARE AND ENSURE SOFTWARE ADHERE'S TO BEST PRACTICES IN PERFORMANCE, RELIABILITY AND SECURITY. COMPUTER PROGRAMMERS CAN WORK DEVELOPING MOBILE APPLICATIONS, CODING VIDEO GAMES, PROGRAMMING WEBSITES, AND MUCH MORE.";
+}
+</script>
+</body>
+</html>
